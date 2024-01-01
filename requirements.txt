@@ -1,2 +1,6 @@
-numy
-pandas
+notebook
+ipywidgets
+tqdm
+python-dotenv
+aiohttp
+requests
