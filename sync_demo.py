@@ -52,7 +52,6 @@ if __name__ == "__main__":
     # get the list of photo ids
     with open('list_photo_ids.txt', "r") as f:
         list_photo_ids = [line.rstrip() for line in f.readlines()]
-        print(list_photo_ids)
     # call download all function
     start_time = time.time()
     download_all(list_photo_ids=list_photo_ids)
